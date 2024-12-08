@@ -1,5 +1,2 @@
-# webpack-template-theodinproject
+# bodybuilding workout and diet tracker
 
-A very basic webpack template for personal use
-
-don't forget to modify package.json name and description

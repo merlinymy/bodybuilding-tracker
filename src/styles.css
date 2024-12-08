@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.nav-wrap {
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-bottom: 1rem;
+    padding-top: 10px;
+}
+
+.bottom-nav > div > div {
+    /* font-size: 0.65rem; */
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.main > div {
+    border: 1px solid red;
+}
