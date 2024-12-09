@@ -1,0 +1,17 @@
+{
+    "routineName": "Leg day",
+    "duration": 0,
+    "Notes": "",
+    "workouts": [
+        {
+            "workoutName" : "squat (Barbell)",
+            "sets" : [
+                {
+                    "previous" : "235lbs x 8",
+                    "lbs" : 240,
+                    "Reps" : 8
+                }
+            ]
+        }
+    ]
+}
