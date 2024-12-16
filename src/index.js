@@ -1,9 +1,9 @@
 import './styles.css';
 import * as Utils from './scripts/until';
-import  workoutTab from "./components/workoutTab";
+import  routinesTab from "./components/navs/routinesTab";
 
 
-const main = document.querySelector(".main");
+const mainWrap = document.querySelector(".main-wrap");
 
 const navBtns = document.querySelectorAll(".nav-btn");
 
@@ -11,4 +11,4 @@ navBtns.forEach((element) => {
     Utils.addListener(element);
 })
 
-main.innerHTML = workoutTab;
+mainWrap.append(routinesTab);

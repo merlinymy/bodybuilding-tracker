@@ -1,8 +1,8 @@
-import { default as profileTab } from "../components/profileTab";
-import { default as historyTab } from "../components/historyTab";
-import { default as workoutTab } from "../components/workoutTab";
-import { default as dietTab } from "../components/dietTab";
-import { default as bodyTab } from "../components/bodyTab";
+import { default as profileTab } from "../components/navs/profileTab";
+import { default as historyTab } from "../components/navs/historyTab";
+import { default as workoutTab } from "../components/navs/routinesTab";
+import { default as dietTab } from "../components/navs/dietTab";
+import { default as bodyTab } from "../components/navs/bodyTab";
 
 export function addListener(btn) {
     btn.addEventListener("click", (event) => {

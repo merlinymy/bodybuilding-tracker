@@ -1,0 +1,154 @@
+{
+    "suggestRoutines" : [
+        {
+            "routineName" : "chests and triceps",
+            "workouts" : [
+                {
+                    "workoutName" : "barbell bench press",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+
+                {
+                    "workoutName" : "inclined barbell bench press",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "chest fly",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "tricep cable pulldown",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "tricep cable extension",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "routineName" : "back and biceps",
+            "workouts" : [
+                {
+                    "workoutName" : "back pulldown",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+
+                {
+                    "workoutName" : "seated row",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "barbell row",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "cable curl",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "dumbbell curl",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "routineName" : "legs",
+            "workouts" : [
+                {
+                    "workoutName" : "barbell squats",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+
+                {
+                    "workoutName" : "glute raises",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "bulgarian deadlift",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "leg extension",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "leg curl",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                }
+            ]
+        },
+        {
+            "routineName" : "shoulder and core",
+            "workouts" : [
+                {
+                    "workoutName" : "side lateral raise",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+
+                {
+                    "workoutName" : "rear delt raise",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "shoulder press",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "cable core pull over",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                },
+                {
+                    "workoutName" : "forearm curl",
+                    "sets" : [
+                        {  "weight" : null,  "reps" : null  }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "userRoutines" : [
+        
+    ]
+}
