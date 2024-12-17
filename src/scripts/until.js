@@ -10,11 +10,16 @@ export function addListener(btn) {
         const tab = getTabByName(btnName);
 
         if (tab) {
-            const mainContent = document.querySelector('.main'); 
+            const mainContent = document.querySelector('.main-wrap'); 
             mainContent.innerHTML = ''; // Clear current content
-            mainContent.innerHTML = tab; // Append the new tab
+            mainContent.append(tab); // Append the new tab
         }
     });
+}
+
+export function css(element, style) {
+    for (const property in style)
+        element.style[property] = style[property];
 }
 
 

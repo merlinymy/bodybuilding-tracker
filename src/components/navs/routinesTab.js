@@ -1,4 +1,5 @@
 import newWorkoutCard from "../newWorkoutCard";
+import { css } from "../../scripts/until";
 import {suggestRoutines, userRoutines} from "../../data/routines.json";
 
 export default (function() {
@@ -37,9 +38,17 @@ export default (function() {
     const newEmptyWorkoutBtn = document.createElement("button");
     newEmptyWorkoutBtn.textContent = "Start A New Workout";
     newEmptyWorkoutBtn.classList.add("add");
+    
+    main.append(newWorkoutCard);
+
+    const navWrap = document.querySelector(".nav-wrap");
+
     newEmptyWorkoutBtn.addEventListener("click", (event) => {
-        // call add new routine card
-        body.append(newWorkoutCard);
+        newWorkoutCard.classList.add("show-rise");
+        newWorkoutCard.classList.remove("hidden-bottom");
+        css(navWrap, {
+            'transform': 'translateY(100%)'
+        });
     });
 
     newWorkoutDiv.append(newEmptyWorkoutBtn);
