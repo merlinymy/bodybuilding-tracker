@@ -1,0 +1,29 @@
+[33mcommit ac356fb5c1faa86dd808413406cd5db04036b07d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: merlinymy <lordhorcrux@gmail.com>
+Date:   Tue Dec 17 00:12:29 2024 -0600
+
+    add tab pop up animation
+
+[33mcommit 1f229554648b7192c18642c27fa7ba7092517b05[m
+Author: merlinymy <lordhorcrux@gmail.com>
+Date:   Mon Dec 16 04:08:52 2024 -0600
+
+    add buttons to routinesTab
+
+[33mcommit 93d3a00b1441749dcf375c62a1cf262516446e57[m
+Author: merlinymy <lordhorcrux@gmail.com>
+Date:   Sun Dec 8 22:48:10 2024 -0600
+
+    finish tab switching
+
+[33mcommit badfef6adc08cf6e611025f66145a78628beb897[m
+Author: merlinymy <lordhorcrux@gmail.com>
+Date:   Sun Dec 8 02:00:33 2024 -0600
+
+    init & bottom nav & start working on workout tab
+
+[33mcommit c1dfb5486ef4dca98f01ab651035b8616cbc59d7[m
+Author: Merlin <83283194+merlinymy@users.noreply.github.com>
+Date:   Thu Dec 5 01:31:16 2024 -0600
+
+    Initial commit

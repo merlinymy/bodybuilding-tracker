@@ -37,23 +37,33 @@ export default (function newWorkoutCard(routine) {
     `
     cardWrap.innerHTML = content;
 
+    // text area autosize
     const textarea = cardWrap.querySelector("textarea");
-
     textarea.addEventListener("input", (event) => {
       event.target.style.height = "";
       event.target.style.height = `${event.target.scrollHeight}px`;
     })
     
-    const navWrap = document.querySelector(".nav-wrap");
-    const minimize = cardWrap.querySelector(".minimize");
+    // bottom sheet stuff
+    const navWrap = document.querySelector(".nav-wrap"); // for nav animation
+    const minimize = cardWrap.querySelector(".minimize"); // div.minimize with timer
+    
+    // click trigers card drop back to minizied version
     minimize.addEventListener("click", (event)=>{
       cardWrap.classList.remove("show-rise");
       cardWrap.classList.add("hidden-bottom");
+
+      // apply css rules to div.navWrap
       css(navWrap, {
         'transform': 'translateY(0%)',
         'transition': 'all 250ms cubic-bezier(.69,0,.18,1.02)'
       })
     });
+
+    const minimizeToolbar = cardWrap.querySelector('.toolbar');
+
+    // drag feature
+    
 
     const minimizeY = 0;
 
@@ -63,6 +73,7 @@ export default (function newWorkoutCard(routine) {
 
 
 
+    // return card in DOM
     return cardWrap;
 
 })();
