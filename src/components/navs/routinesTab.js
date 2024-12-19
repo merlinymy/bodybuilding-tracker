@@ -43,9 +43,13 @@ export default (function() {
 
     const navWrap = document.querySelector(".nav-wrap");
 
+    let positionY = 50;
     newEmptyWorkoutBtn.addEventListener("click", (event) => {
-        newWorkoutCard.classList.add("show-rise");
-        newWorkoutCard.classList.remove("hidden-bottom");
+        console.log(newWorkoutCard)
+        css(newWorkoutCard, {
+            'height': `${positionY}vh`,
+        });
+
         css(navWrap, {
             'transform': 'translateY(100%)'
         });

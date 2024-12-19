@@ -3,7 +3,7 @@ import { css } from "../scripts/until";
 
 export default (function newWorkoutCard(routine) {
     const cardWrap = document.createElement("div");
-    cardWrap.classList.add("card-wrap", "new-workout", "hidden-bottom");
+    cardWrap.classList.add("card-wrap", "new-workout");
     // const workouts = routine.workouts;
     const content =  `
     <div class="card">
@@ -49,29 +49,41 @@ export default (function newWorkoutCard(routine) {
     const minimize = cardWrap.querySelector(".minimize"); // div.minimize with timer
     
     // click trigers card drop back to minizied version
+
+    const minimizeY = 15; //vh
     minimize.addEventListener("click", (event)=>{
-      cardWrap.classList.remove("show-rise");
-      cardWrap.classList.add("hidden-bottom");
+      
+      cardWrap.style.height = `${minimizeY}vh`;
 
       // apply css rules to div.navWrap
       css(navWrap, {
         'transform': 'translateY(0%)',
+        // 'height': `${positionY}vh`,
         'transition': 'all 250ms cubic-bezier(.69,0,.18,1.02)'
       })
     });
 
+    // drag feature
     const minimizeToolbar = cardWrap.querySelector('.toolbar');
 
-    // drag feature
-    
 
-    const minimizeY = 0;
+    let positionY;
+    let cursorY;
 
+    const onDragStart = (event) => {
+      cursorY = event.pageY;
+      console.log(event.pageY);
+    }
 
+    const onDragMove = (event) => {
+      let currentY = event.pageY;
+      // set height of the card;
+    }
 
-
-
-
+    //when touch starts, get touch position y
+    minimizeToolbar.addEventListener('pointerdown', onDragStart);
+    minimizeToolbar.addEventListener('pointermove', onDragMove);
+    // minimizeToolbar.addEventListener('pointerup', onDragEnd);
 
     // return card in DOM
     return cardWrap;
